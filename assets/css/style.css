@@ -75,3 +75,20 @@ body {
   color: #1B1F21;
 }
 
+.new-chat-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 8.5rem;
+}
+
+.new-chat-button button {
+  border: none;
+  width: 200px;
+  height: 53px;
+  cursor: pointer;
+  background-color: #A491D2;
+  color: #fff;
+  font-size: medium;
+}
