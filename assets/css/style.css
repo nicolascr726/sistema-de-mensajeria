@@ -48,3 +48,15 @@ body {
   width: 43px;
   border-radius: 50%;
 }
+
+.user-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-text p {
+  font-size: small;
+  color: #828485;
+}
