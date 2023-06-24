@@ -95,9 +95,35 @@ body {
 
 .new-chat-button button:hover {
   background-color: #CDC3E6;
-  transition: background-color 0.2s ease;
 }
 
 .new-chat-button button:focus {
   background-color: #BEC1BB;
+}
+
+.friends-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.friend-chat {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 93.1px;
+  gap: 0.5rem;
+  border: 1px solid ;
+  border-color: #BEC1BB;
+  padding: 1rem;
+}
+
+.friend-chat:hover {
+  background-color: #CDC3E6;
+}
+
+.friend-img img {
+  width: 55px;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: #BEC1BB;
 }
