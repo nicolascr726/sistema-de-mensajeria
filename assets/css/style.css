@@ -92,3 +92,12 @@ body {
   color: #fff;
   font-size: medium;
 }
+
+.new-chat-button button:hover {
+  background-color: #CDC3E6;
+  transition: background-color 0.2s ease;
+}
+
+.new-chat-button button:focus {
+  background-color: #BEC1BB;
+}
